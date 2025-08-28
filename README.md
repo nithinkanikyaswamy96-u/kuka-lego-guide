@@ -62,8 +62,8 @@ Automating a Pick & Place task on a 6-axis KUKA ERS 3.0 robot, with the addition
 ---
 
 ## 📹 Demo Video
-- 🎥 [Watch Demo Video](media/kuka_pick_place_demo.mp4) *(if uploaded to repo)*  
-- Or stream/download from the latest [Release](../../releases/latest)
+- 🎥 [Watch Demo Video](media/kuka_pick_place_demo.mp4) 
+
 
 ---
 
