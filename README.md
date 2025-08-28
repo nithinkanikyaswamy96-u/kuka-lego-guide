@@ -41,9 +41,9 @@ Automating a Pick & Place task on a 6-axis KUKA ERS 3.0 robot, with the addition
 
 | Stage | Image |
 |-------|-------|
-| **1. RoboDK Simulation** | ![Simulation](docs/figures/01_RoboDK_Simulation.png) |
-| **2. SmartPAD & KRL Programming** | ![SmartPAD](docs/figures/02_KRL_SmartPAD.png) |
-| **3. Physical Robot Execution** | ![Robot](docs/figures/03_Physical_Robot.png) |
+| **1. RoboDK Simulation** | ![Simulation](docs/figures/01_RoboDK_Simulation.jpg) |
+| **2. SmartPAD & KRL Programming** | ![SmartPAD](docs/figures/02_KRL_SmartPAD.jpg) |
+| **3. Physical Robot Execution** | ![Robot](docs/figures/03_Physical_Robot.jpg) |
 
 ---
 
