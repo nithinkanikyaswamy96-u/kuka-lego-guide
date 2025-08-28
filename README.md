@@ -7,33 +7,35 @@
 
 ---
 
-## 📌 Overview
-This project demonstrates the **programming, simulation, and IIoT integration** of a **KUKA ERS 3.0 robotic arm** to perform a **Pick & Place task**.  
+## 📌 Project Overview
+This project demonstrates the **programming, simulation, and IIoT integration** of a **KUKA ERS 3.0 robotic arm** to perform a **Pick & Place operation**.  
 
-Developed during my **Robotics Programming & Operation Internship at OVGU (May 2025 – Ongoing)**, the system goes beyond basic robot control by enabling **remote operation via OPC-UA and Python**, showcasing how robotics can be seamlessly integrated with **Industry 4.0 technologies**.
+Developed during my **Robotic Systems Programming & Operation Internship at Otto-von-Guericke University Magdeburg (May 2025 – Ongoing)**, this project goes beyond a basic Pick & Place exercise by showcasing **remote robot operation via OPC-UA and Python**, bridging the gap between **classical robotics** and **Industry 4.0 smart factory concepts**.
 
 ---
 
 ## ⭐ STAR Contribution
 
 **Situation**  
-Automating a Pick & Place task on a 6-axis KUKA ERS 3.0 robot, with the additional challenge of enabling **remote IIoT control**.  
+The task was to automate a Pick & Place sequence on a 6-axis KUKA robotic arm, while also extending the system into an **IIoT-enabled environment** to enable remote, multi-user control.  
 
 **Task**  
-- Program the robot for a **precise pick-and-place sequence**.  
-- Validate through **offline simulation** before deployment.  
-- Extend functionality with **OPC-UA & Python client-server** for remote multi-user access.  
+- Program the robot using **KUKA Robot Language (KRL)**.  
+- Validate motions through **RoboDK simulation** before execution.  
+- Establish **OPC-UA connectivity** and integrate Python for real-time remote control.  
+- Deliver both a **functional on-site demo** and a **scalable digital workflow**.  
 
 **Action**  
-- Programmed robot in **KUKA Robot Language (KRL)** on the KUKA Robot Controller (KRC).  
-- Simulated motion using **RoboDK** with imported WRL/STEP models.  
-- Integrated **OPC-UA server** for connectivity and developed a **Python client-server system** for remote operation.  
-- Configured **SmartHMI/SmartPAD** interface for on-site programming and testing.  
+- Built and imported CAD models into **RoboDK** for trajectory simulation and collision detection.  
+- Programmed robot movement in **KRL**, tested locally on KUKA Robot Controller (KRC) and SmartPAD.  
+- Integrated **OPC-UA server** with a **Python-based client-server system** to enable Industry 4.0 connectivity.  
+- Configured **SmartHMI & PLC-level controls** for local testing and fallback.  
 
 **Result**  
-- Delivered a **functional Pick & Place cycle**, validated both in simulation and on a **physical LEGO-based KUKA ERS 3.0** robot.  
-- Successfully enabled **remote, multi-user robot operation** via OPC-UA.  
-- Demonstrated strong skills in **robotics programming, IIoT integration, PLC systems, and automation**.  
+- Achieved a **fully automated Pick & Place cycle**, validated in both simulation and on a physical **LEGO-based KUKA ERS 3.0** robot.  
+- Enabled **remote, multi-user operation** through OPC-UA and Python integration.  
+- Demonstrated strong skills in **robotics programming, IIoT connectivity, PLC systems, and automation integration**.  
+- Produced **comprehensive documentation, source code, CAD models, and demo video** for reproducibility.  
 
 ---
 
@@ -52,7 +54,8 @@ Automating a Pick & Place task on a 6-axis KUKA ERS 3.0 robot, with the addition
 ---
 
 ## 📑 Reports & Documentation
-- 📕 **Guide Report (PDF):** [KUKA_PickPlace_Guide.pdf](docs/reports/KUKA_PickPlace_Guide.pdf)
+- 📘 **KUKA Pick & Place Guide (PDF):** [KUKA_PickPlace_Guide.pdf](docs/reports/KUKA_PickPlace_Guide.pdf)  
+  *(includes step-by-step workflow, screenshots, and technical explanations)*
 
 ---
 
@@ -62,32 +65,38 @@ Automating a Pick & Place task on a 6-axis KUKA ERS 3.0 robot, with the addition
 ---
 
 ## 📹 Demo Video
-- 🎥 [Watch Demo Video](media/kuka_pick_place_demo.mp4) 
-
+🎥 [Watch Pick & Place Execution Demo](media/kuka_pick_place_demo.mp4)  
+ 
 
 ---
 
-## 🗂️ CAD Models
-Full CAD package (WRL, STEP, IGES) is published as a Release for easy download:
+## 🗂️ CAD Models & Simulation Assets
+To keep the repository lean, the **full CAD package** is provided as a downloadable Release:  
 
-👉 [Download Full CAD Models (ZIP)](../../releases/latest/download/KUKA_ERS3.0_FullModels_v1.0.zip)
+👉 [Download KUKA ERS 3.0 CAD Models (WRL, STEP, IGES)](../../releases/latest/download/KUKA_ERS3.0_FullModels_v1.0.zip)
+
+Contents include:  
+- ERS3.0 assembly & parts (`.wrl`, `.iges`, `.step`)  
+- RoboDK project setup (`.rdk`)  
+- Robot workspace layouts  
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **KUKA Robot Language (KRL)**  
-- **KUKA Robot Controller (KRC)**  
-- **RoboDK (offline simulation & programming)**  
-- **OPC-UA (Industry 4.0 integration)**  
-- **Python Client-Server (remote control)**  
-- **SmartHMI / PLC Interfaces**  
+- **KUKA Robot Language (KRL)** – trajectory programming  
+- **KUKA Robot Controller (KRC) & SmartPAD/SmartHMI** – on-site testing  
+- **RoboDK** – offline programming and collision-free simulation  
+- **OPC-UA** – robot-to-cloud communication protocol  
+- **Python (Client-Server)** – remote, multi-user control integration  
+- **PLC Interfaces** – local control and safety redundancy  
 
 ---
 
 ## 🔑 Key Takeaways
-- Combined **simulation, programming, and real-world validation** in one project.  
-- Showcased **Industry 4.0 readiness** by linking robotics with OPC-UA and remote Python control.  
-- Delivered a **documented, working robotic system** bridging traditional automation and modern IIoT.  
+- Delivered a **working robotic system** that integrates **classical programming + Industry 4.0 remote control**.  
+- Showcased the **end-to-end robotics workflow**: CAD models → simulation → programming → physical execution → remote operation.  
+- Provided a **recruiter-friendly demonstration** of skills in **robotics, automation, IIoT, and digital manufacturing**.  
+- This project reflects my ability to **bridge hardware, software, and connectivity layers** in real-world robotic systems.  
 
 ---
 
