@@ -65,7 +65,8 @@ The task was to automate a Pick & Place sequence on a 6-axis KUKA robotic arm, w
 ---
 
 ## 📹 Demo Video
-🎥 [Watch Pick & Place Execution Demo](media/kuka_pick_place_demo.mp4)  
+   🎥 [Watch Demo Video (Download)](media/kuka_pick_place_demo.mp4)
+ 
  
 
 ---
